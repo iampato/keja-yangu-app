@@ -4,15 +4,48 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
+
+    <ion-buttons end>
+      <button ion-button>
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+<ion-content >
+  
+   <ion-item class="Upperstack">
+    <img id="main-logo" src="assets/imgs/kejalogo.PNG">
+    <h2>Simple,Affordable,Fast</h2>
+    
+  </ion-item>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <ion-item class="Lowerstack">
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+    <h2>Are you looking for ?</h2>
+
+    <ion-col>
+      <ion-row padding>
+        <button start>
+          <ion-icon name="person"></ion-icon>
+        </button>
+        <button start>
+          <ion-icon name="home"></ion-icon>
+        </button>
+        <button end>
+          <ion-icon name="home"></ion-icon>
+        </button>
+      </ion-row>
+
+      <ion-row >
+        <h3 start>Roommate</h3>
+        <h3>Room</h3>
+        <h3 end>Property</h3>
+      </ion-row>
+    </ion-col>
+   
+    
+  </ion-item>
 </ion-content>

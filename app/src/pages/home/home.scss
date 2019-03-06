@@ -1,3 +1,44 @@
 page-home {
 
+
+	.Upperstack{
+		height: 50%;
+		background-color: white;
+		margin-left: auto;
+    	margin-right: auto;
+    	
+	}
+	.Upperstack h2{
+		text-align: center;
+		font-weight: bold;
+		opacity: 0.7;
+	}
+	.Lowerstack{
+		height: 50%;
+		background-color: #e3e3e3; 
+		margin-left: auto;
+    	margin-right: auto
+	}
+	.Lowerstack h2{
+		text-align: center;
+	}
+	.Lowerstack ion-row button{
+		background-color: #fff;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 50%;
+		width:60px;
+		height: 60px;
+	}
+	.Lowerstack ion-row button ion-icon{
+		font-size: 30px;
+	}
+	
+	.Lowerstack ion-row h3{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 }
